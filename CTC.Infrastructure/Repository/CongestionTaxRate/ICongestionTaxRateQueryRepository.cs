@@ -3,7 +3,7 @@
 namespace CTC.Infrastructure.Repository.CongestionTaxRate
 {
 
-    public interface ICongestionTaxRateQueryRepository : IQueryRepository<CTC.Core.Entitys.CongestionTaxRate>
+    public interface ICongestionTaxRateQueryRepository : IQueryRepository<Core.Entitys.CongestionTaxRate>
     {
     }
 }

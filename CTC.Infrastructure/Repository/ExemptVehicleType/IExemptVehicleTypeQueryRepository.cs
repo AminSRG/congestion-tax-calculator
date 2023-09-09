@@ -2,7 +2,7 @@
 
 namespace CTC.Infrastructure.Repository.ExemptVehicleType
 {
-    public interface IExemptVehicleTypeQueryRepository : IQueryRepository<CTC.Core.Entitys.ExemptVehicleType>
+    public interface IExemptVehicleTypeQueryRepository : IQueryRepository<Core.Entitys.ExemptVehicleType>
     {
     }
 }

@@ -2,7 +2,7 @@
 
 namespace CTC.Infrastructure.Repository.Vehicle
 {
-    public class VehicleRepository : Repository<CTC.Core.Entitys.Vehicle>, IVehicleRepository
+    public class VehicleRepository : Repository<Core.Entitys.Vehicle>, IVehicleRepository
     {
         public VehicleRepository(CongestionTaxDbContext databaseContext) : base(databaseContext)
         {

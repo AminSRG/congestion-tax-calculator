@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTC.Shared", "CTC.Shared\CT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTC.Infrastructure", "CTC.Infrastructure\CTC.Infrastructure.csproj", "{A8CEC0F7-C96B-4281-9D1C-83BAA2B397F2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTC.Application", "CTC.Application\CTC.Application.csproj", "{62402973-9FFA-46A5-B8C3-9603EB67637C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A8CEC0F7-C96B-4281-9D1C-83BAA2B397F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8CEC0F7-C96B-4281-9D1C-83BAA2B397F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8CEC0F7-C96B-4281-9D1C-83BAA2B397F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62402973-9FFA-46A5-B8C3-9603EB67637C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62402973-9FFA-46A5-B8C3-9603EB67637C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62402973-9FFA-46A5-B8C3-9603EB67637C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62402973-9FFA-46A5-B8C3-9603EB67637C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

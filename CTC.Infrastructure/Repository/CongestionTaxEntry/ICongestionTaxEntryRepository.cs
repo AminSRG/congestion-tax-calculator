@@ -2,7 +2,7 @@
 
 namespace CTC.Infrastructure.Repository.CongestionTaxEntry
 {
-    public interface ICongestionTaxEntryRepository : IRepository<CTC.Core.Entitys.CongestionTaxEntry>
+    public interface ICongestionTaxEntryRepository : IRepository<Core.Entitys.CongestionTaxEntry>
     {
     }
 }

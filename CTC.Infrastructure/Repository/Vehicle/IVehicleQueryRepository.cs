@@ -2,7 +2,7 @@
 
 namespace CTC.Infrastructure.Repository.Vehicle
 {
-    public interface IVehicleQueryRepository : IQueryRepository<CTC.Core.Entitys.Vehicle>
+    public interface IVehicleQueryRepository : IQueryRepository<Core.Entitys.Vehicle>
     {
     }
 }

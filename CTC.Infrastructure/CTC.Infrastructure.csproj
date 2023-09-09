@@ -11,14 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CTC.Core\CTC.Core.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Repository\CongestionTaxRate\" />
     <Folder Include="Repository\ExemptVehicleType\" />
     <Folder Include="Repository\Vehicle\" />
     <Folder Include="Repository\TaxCalculationResult\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CTC.Core\CTC.Core.csproj" />
+    <ProjectReference Include="..\CTC.Shared\CTC.Shared.csproj" />
   </ItemGroup>
 
 </Project>

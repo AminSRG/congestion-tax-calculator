@@ -2,7 +2,7 @@
 
 namespace CTC.Infrastructure.Repository.CongestionTaxRate
 {
-    public class CongestionTaxRateRepository : Repository<CTC.Core.Entitys.CongestionTaxRate>, ICongestionTaxRateRepository
+    public class CongestionTaxRateRepository : Repository<Core.Entitys.CongestionTaxRate>, ICongestionTaxRateRepository
     {
         public CongestionTaxRateRepository(CongestionTaxDbContext databaseContext) : base(databaseContext)
         {

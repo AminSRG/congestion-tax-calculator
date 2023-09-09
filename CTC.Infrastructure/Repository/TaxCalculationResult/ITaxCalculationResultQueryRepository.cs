@@ -3,7 +3,7 @@
 namespace CTC.Infrastructure.Repository.TaxCalculationResult
 {
 
-    public interface ITaxCalculationResultQueryRepository : IQueryRepository<CTC.Core.Entitys.TaxCalculationResult>
+    public interface ITaxCalculationResultQueryRepository : IQueryRepository<Core.Entitys.TaxCalculationResult>
     {
     }
 }
