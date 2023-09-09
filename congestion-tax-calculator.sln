@@ -3,12 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTC.Core", "CTC.Core\CTC.Core.csproj", "{580D43E6-5BAE-47F2-BC6D-8D141F50A6ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTC.Shared", "CTC.Shared\CTC.Shared.csproj", "{B74BEB06-D7C6-4A7B-AAB9-D592BAA7C1E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{580D43E6-5BAE-47F2-BC6D-8D141F50A6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580D43E6-5BAE-47F2-BC6D-8D141F50A6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580D43E6-5BAE-47F2-BC6D-8D141F50A6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580D43E6-5BAE-47F2-BC6D-8D141F50A6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74BEB06-D7C6-4A7B-AAB9-D592BAA7C1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74BEB06-D7C6-4A7B-AAB9-D592BAA7C1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74BEB06-D7C6-4A7B-AAB9-D592BAA7C1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74BEB06-D7C6-4A7B-AAB9-D592BAA7C1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB9AD2EC-D4B8-4695-BCE3-5502A6B3829A}
 	EndGlobalSection
 EndGlobal
