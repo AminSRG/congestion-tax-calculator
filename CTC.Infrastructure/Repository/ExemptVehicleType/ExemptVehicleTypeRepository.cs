@@ -1,11 +1,11 @@
 ﻿using CTC.Shared.Repository;
+using Microsoft.EntityFrameworkCore;
 
-namespace CTC.Infrastructure.Repository.ExemptVehicleType
+namespace CTC.Infrastructure.Repository.ExemptVehicleType;
+
+public class ExemptVehicleTypeRepository : Repository<Core.Entitys.ExemptVehicleType>, IExemptVehicleTypeRepository
 {
-    public class ExemptVehicleTypeRepository : Repository<Core.Entitys.ExemptVehicleType>, IExemptVehicleTypeRepository
+    public ExemptVehicleTypeRepository(DbContext databaseContext) : base(databaseContext)
     {
-        public ExemptVehicleTypeRepository(CongestionTaxDbContext databaseContext) : base(databaseContext)
-        {
-        }
     }
 }

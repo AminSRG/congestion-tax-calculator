@@ -1,8 +1,7 @@
 ﻿using CTC.Shared.IRepository;
 
-namespace CTC.Infrastructure.Repository.CongestionTaxRate
+namespace CTC.Infrastructure.Repository.CongestionTaxRate;
+
+public interface ICongestionTaxRateRepository : IRepository<Core.Entitys.CongestionTaxRate>
 {
-    public interface ICongestionTaxRateRepository : IRepository<Core.Entitys.CongestionTaxRate>
-    {
-    }
 }

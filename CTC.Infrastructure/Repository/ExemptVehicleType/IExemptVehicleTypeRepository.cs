@@ -1,8 +1,7 @@
 ﻿using CTC.Shared.IRepository;
 
-namespace CTC.Infrastructure.Repository.ExemptVehicleType
+namespace CTC.Infrastructure.Repository.ExemptVehicleType;
+
+public interface IExemptVehicleTypeRepository : IRepository<Core.Entitys.ExemptVehicleType>
 {
-    public interface IExemptVehicleTypeRepository : IRepository<Core.Entitys.ExemptVehicleType>
-    {
-    }
 }

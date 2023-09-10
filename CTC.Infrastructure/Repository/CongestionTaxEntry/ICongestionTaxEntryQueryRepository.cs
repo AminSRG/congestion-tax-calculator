@@ -1,9 +1,8 @@
 ﻿using CTC.Shared.IRepository;
 
-namespace CTC.Infrastructure.Repository.CongestionTaxEntry
+namespace CTC.Infrastructure.Repository.CongestionTaxEntry;
+
+public interface ICongestionTaxEntryQueryRepository : IQueryRepository<Core.Entitys.CongestionTaxEntry>
 {
-    public interface ICongestionTaxEntryQueryRepository : IQueryRepository<Core.Entitys.CongestionTaxEntry>
-    {
-        Task<string> GetHighestTaxWithinWindowAsync(DateTime windowStart, DateTime windowEnd);
-    }
+    Task<string> GetHighestTaxWithinWindowAsync(DateTime windowStart, DateTime windowEnd);
 }

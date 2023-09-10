@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CTC.Application"
   ],
-  "SelectedNode": "\\congestion-tax-calculator.sln",
+  "SelectedNode": "\\CTC.Application\\CongestionTaxCalculator.cs",
   "PreviewInSolutionExplorer": false
 }

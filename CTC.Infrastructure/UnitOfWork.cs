@@ -6,7 +6,6 @@ using CTC.Infrastructure.Repository.Vehicle;
 
 namespace CTC.Infrastructure
 {
-
     namespace CTC.Infrastructure
     {
         internal class UnitOfWork : IUnitOfWork
@@ -24,7 +23,7 @@ namespace CTC.Infrastructure
                 IExemptVehicleTypeRepository exemptVehicleTypeRepository,
                 ICongestionTaxRateRepository congestionTaxRateRepository,
                 IVehicleRepository vehicleRepository
-                )
+            )
             {
                 TaxCalculationResults = taxCalculationResultRepository;
                 CongestionTaxEntries = congestionTaxEntryRepository;
@@ -41,10 +40,7 @@ namespace CTC.Infrastructure
 
             protected virtual void Dispose(bool disposing)
             {
-                if (IsDisposed)
-                {
-                    return;
-                }
+                if (IsDisposed) return;
 
                 if (disposing)
                 {
@@ -60,5 +56,4 @@ namespace CTC.Infrastructure
             }
         }
     }
-
 }

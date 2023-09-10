@@ -1,8 +1,7 @@
 ﻿using CTC.Shared.IRepository;
 
-namespace CTC.Infrastructure.Repository.Vehicle
+namespace CTC.Infrastructure.Repository.Vehicle;
+
+public interface IVehicleRepository : IRepository<Core.Entitys.Vehicle>
 {
-    public interface IVehicleRepository : IRepository<Core.Entitys.Vehicle>
-    {
-    }
 }

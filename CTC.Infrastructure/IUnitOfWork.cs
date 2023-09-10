@@ -6,7 +6,6 @@ using CTC.Infrastructure.Repository.Vehicle;
 
 namespace CTC.Infrastructure
 {
-
     namespace CTC.Infrastructure
     {
         public interface IUnitOfWork : IDisposable
@@ -19,5 +18,4 @@ namespace CTC.Infrastructure
             IVehicleRepository Vehicles { get; }
         }
     }
-
 }
