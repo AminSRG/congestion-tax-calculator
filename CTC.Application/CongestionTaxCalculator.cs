@@ -4,7 +4,7 @@ using CTC.Shared.BaseEntitys.Abstracts;
 
 namespace CTC.Application
 {
-    public class CongestionTaxCalculator
+    public class CongestionTaxCalculator : ICongestionTaxCalculator
     {
         private readonly IQueryUnitOfWork _queryUnitOfWork;
 
@@ -25,7 +25,7 @@ namespace CTC.Application
 
             return Math.Min(long.Parse(taxRate), long.Parse(highestTaxWithinWindow));
         }
-        
+
         private static bool IsExempt(CongestionTaxEntry entry)
         {
             DateTime entryTime = entry.EntryTime;
