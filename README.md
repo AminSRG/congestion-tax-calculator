@@ -22,6 +22,10 @@ I admit that the logic of the `TaxCalculator` isn't entirely clear, but I have m
 
 Here are some potential enhancements that could be considered:
 
+- **Behavior-Driven Development (BDD)**: Introduce BDD practices to the project to better define and understand the behavior of its features from the user's perspective. BDD can lead to clearer requirements and more focused testing.
+
+- **Test-Driven Development (TDD)**: Embrace Test-Driven Development (TDD) as a fundamental practice. Write tests before writing the actual code to ensure that the code behaves correctly and satisfies the specified requirements. TDD can improve code quality and maintainability.
+
 - **CQRS Pattern**: Implement the Command Query Responsibility Segregation (CQRS) pattern to separate the command (write) and query (read) responsibilities of the application.
 
 - **RESTful API**: Create a RESTful API layer to expose the congestion tax calculation functionality, making it accessible via HTTP endpoints.
