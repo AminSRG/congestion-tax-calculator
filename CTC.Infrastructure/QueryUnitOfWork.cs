@@ -8,7 +8,7 @@ namespace CTC.Infrastructure;
 
 internal class QueryUnitOfWork : IQueryUnitOfWork
 {
-    public bool IsDisposed { get; set; }
+    private bool IsDisposed { get; set; }
     public ITaxCalculationResultQueryRepository TaxCalculationResults { get; }
     public ICongestionTaxEntryQueryRepository CongestionTaxEntries { get; }
     public IExemptVehicleTypeQueryRepository ExemptVehicleTypes { get; }
