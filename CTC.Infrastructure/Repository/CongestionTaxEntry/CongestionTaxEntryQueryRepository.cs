@@ -1,4 +1,5 @@
 ﻿using CTC.Shared.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace CTC.Infrastructure.Repository.CongestionTaxEntry
 {
@@ -6,6 +7,13 @@ namespace CTC.Infrastructure.Repository.CongestionTaxEntry
     {
         public CongestionTaxEntryQueryRepository(CongestionTaxDbContext databaseContext) : base(databaseContext)
         {
+        }
+
+        public async Task<string> GetHighestTaxWithinWindowAsync(DateTime windowStart, DateTime windowEnd)
+        {
+            return await this.DbSet
+                .Where(entry => entry.EntryTime >= windowStart && entry.EntryTime <= windowEnd)
+                .MaxAsync(entry => entry.TaxAmount) ?? "0";
         }
     }
 }

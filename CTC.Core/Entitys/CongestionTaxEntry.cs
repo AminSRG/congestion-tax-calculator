@@ -6,5 +6,6 @@ namespace CTC.Core.Entitys
     {
         public DateTime EntryTime { get; set; }
         public Vehicle Vehicle { get; set; }
+        public string TaxAmount { get; set; }
     }
 }

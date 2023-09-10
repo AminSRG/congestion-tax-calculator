@@ -1,4 +1,5 @@
 ﻿using CTC.Shared.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace CTC.Infrastructure.Repository.CongestionTaxRate
 {
@@ -6,6 +7,11 @@ namespace CTC.Infrastructure.Repository.CongestionTaxRate
     {
         public CongestionTaxRateQueryRepository(CongestionTaxDbContext databaseContext) : base(databaseContext)
         {
+        }
+
+        public async Task<Core.Entitys.CongestionTaxRate> GetTaxRateByTimeIntervalAsync(string timeInterval)
+        {
+            return await this.DbSet.FirstAsync(current => current.TimeInterval == timeInterval);
         }
     }
 }
